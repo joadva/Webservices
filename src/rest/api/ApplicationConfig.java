@@ -5,21 +5,21 @@ import java.util.Set;
 
 import javax.ws.rs.core.Application;
 
-@javax.ws.rs.ApplicationPath("webresources")
+//@javax.ws.rs.ApplicationPath("webresources")
 public class ApplicationConfig  extends Application{
 	
-	@Override
-	public Set<Class<?>> getClasses(){
-		
-		
-		Set<Class<?>> resources = new HashSet<>();
-		addRestResourceClasses(resources);
-		return resources;
-	}
-	
-	private void  addRestResourceClasses(Set<Class<?>> resources) {
-		
-		resources.add(rest.api.UserResource.class);
-	}
+//	@Override
+//	public Set<Class<?>> getClasses(){
+//		
+//		
+//		Set<Class<?>> resources = new HashSet<>();
+//		addRestResourceClasses(resources);
+//		return resources;
+//	}
+//	
+//	private void  addRestResourceClasses(Set<Class<?>> resources) {
+//		
+//		resources.add(rest.api.UserResouce.class);
+//	}
 
 }
